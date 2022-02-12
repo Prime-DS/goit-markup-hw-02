@@ -88,6 +88,10 @@ a.logo {
   color: var(--accent-color);
 }
 
+.nav-list .nav-link.current {
+  color: var(--accent-color);
+}
+
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--accent-color);
@@ -103,7 +107,7 @@ a.logo {
   background-color: var(--footer-bg-color);
 }
 
-.hero {
+.hero h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -115,6 +119,7 @@ a.logo {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -206,22 +211,31 @@ a.logo {
 
 /* Portfolio */
 
-.portfolio {
-  background-color: #e5e5e5;
-}
 .portfolio-nav-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--primery-title-color);
   background-color: #f5f4fa;
   background-color: transparent;
   cursor: pointer;
 }
+
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus {
   color: var(--header-bg-color);
   background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primery-title-color);
 }
